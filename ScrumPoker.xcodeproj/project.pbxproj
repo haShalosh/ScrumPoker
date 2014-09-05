@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484D430619B96B3D0042B26C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D430519B96B3D0042B26C /* Foundation.framework */; };
+		484D430819B96B3D0042B26C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D430719B96B3D0042B26C /* CoreGraphics.framework */; };
+		484D430A19B96B3D0042B26C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D430919B96B3D0042B26C /* UIKit.framework */; };
+		484D431019B96B3D0042B26C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 484D430E19B96B3D0042B26C /* InfoPlist.strings */; };
+		484D431219B96B3D0042B26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484D431119B96B3D0042B26C /* main.m */; };
+		484D431619B96B3D0042B26C /* SPKRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 484D431519B96B3D0042B26C /* SPKRAppDelegate.m */; };
+		484D431919B96B3D0042B26C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484D431719B96B3D0042B26C /* Main_iPhone.storyboard */; };
+		484D431C19B96B3D0042B26C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484D431A19B96B3D0042B26C /* Main_iPad.storyboard */; };
+		484D431F19B96B3D0042B26C /* SPKRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484D431E19B96B3D0042B26C /* SPKRViewController.m */; };
+		484D432119B96B3D0042B26C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484D432019B96B3D0042B26C /* Images.xcassets */; };
+		484D432819B96B3D0042B26C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D432719B96B3D0042B26C /* XCTest.framework */; };
+		484D432919B96B3D0042B26C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D430519B96B3D0042B26C /* Foundation.framework */; };
+		484D432A19B96B3D0042B26C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D430919B96B3D0042B26C /* UIKit.framework */; };
+		484D433219B96B3D0042B26C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 484D433019B96B3D0042B26C /* InfoPlist.strings */; };
+		484D433419B96B3D0042B26C /* ScrumPokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484D433319B96B3D0042B26C /* ScrumPokerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		484D432B19B96B3D0042B26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484D42FA19B96B3D0042B26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484D430119B96B3D0042B26C;
+			remoteInfo = ScrumPoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		484D430219B96B3D0042B26C /* ScrumPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		484D430519B96B3D0042B26C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		484D430719B96B3D0042B26C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		484D430919B96B3D0042B26C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		484D430D19B96B3D0042B26C /* ScrumPoker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrumPoker-Info.plist"; sourceTree = "<group>"; };
+		484D430F19B96B3D0042B26C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		484D431119B96B3D0042B26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		484D431319B96B3D0042B26C /* ScrumPoker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrumPoker-Prefix.pch"; sourceTree = "<group>"; };
+		484D431419B96B3D0042B26C /* SPKRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPKRAppDelegate.h; sourceTree = "<group>"; };
+		484D431519B96B3D0042B26C /* SPKRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPKRAppDelegate.m; sourceTree = "<group>"; };
+		484D431819B96B3D0042B26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		484D431B19B96B3D0042B26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		484D431D19B96B3D0042B26C /* SPKRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPKRViewController.h; sourceTree = "<group>"; };
+		484D431E19B96B3D0042B26C /* SPKRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPKRViewController.m; sourceTree = "<group>"; };
+		484D432019B96B3D0042B26C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		484D432619B96B3D0042B26C /* ScrumPokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumPokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		484D432719B96B3D0042B26C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		484D432F19B96B3D0042B26C /* ScrumPokerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrumPokerTests-Info.plist"; sourceTree = "<group>"; };
+		484D433119B96B3D0042B26C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		484D433319B96B3D0042B26C /* ScrumPokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrumPokerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484D42FF19B96B3D0042B26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D430819B96B3D0042B26C /* CoreGraphics.framework in Frameworks */,
+				484D430A19B96B3D0042B26C /* UIKit.framework in Frameworks */,
+				484D430619B96B3D0042B26C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484D432319B96B3D0042B26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D432819B96B3D0042B26C /* XCTest.framework in Frameworks */,
+				484D432A19B96B3D0042B26C /* UIKit.framework in Frameworks */,
+				484D432919B96B3D0042B26C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484D42F919B96B3D0042B26C = {
+			isa = PBXGroup;
+			children = (
+				484D430B19B96B3D0042B26C /* ScrumPoker */,
+				484D432D19B96B3D0042B26C /* ScrumPokerTests */,
+				484D430419B96B3D0042B26C /* Frameworks */,
+				484D430319B96B3D0042B26C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		484D430319B96B3D0042B26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484D430219B96B3D0042B26C /* ScrumPoker.app */,
+				484D432619B96B3D0042B26C /* ScrumPokerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484D430419B96B3D0042B26C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				484D430519B96B3D0042B26C /* Foundation.framework */,
+				484D430719B96B3D0042B26C /* CoreGraphics.framework */,
+				484D430919B96B3D0042B26C /* UIKit.framework */,
+				484D432719B96B3D0042B26C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		484D430B19B96B3D0042B26C /* ScrumPoker */ = {
+			isa = PBXGroup;
+			children = (
+				484D431419B96B3D0042B26C /* SPKRAppDelegate.h */,
+				484D431519B96B3D0042B26C /* SPKRAppDelegate.m */,
+				484D431719B96B3D0042B26C /* Main_iPhone.storyboard */,
+				484D431A19B96B3D0042B26C /* Main_iPad.storyboard */,
+				484D431D19B96B3D0042B26C /* SPKRViewController.h */,
+				484D431E19B96B3D0042B26C /* SPKRViewController.m */,
+				484D432019B96B3D0042B26C /* Images.xcassets */,
+				484D430C19B96B3D0042B26C /* Supporting Files */,
+			);
+			path = ScrumPoker;
+			sourceTree = "<group>";
+		};
+		484D430C19B96B3D0042B26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				484D430D19B96B3D0042B26C /* ScrumPoker-Info.plist */,
+				484D430E19B96B3D0042B26C /* InfoPlist.strings */,
+				484D431119B96B3D0042B26C /* main.m */,
+				484D431319B96B3D0042B26C /* ScrumPoker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		484D432D19B96B3D0042B26C /* ScrumPokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				484D433319B96B3D0042B26C /* ScrumPokerTests.m */,
+				484D432E19B96B3D0042B26C /* Supporting Files */,
+			);
+			path = ScrumPokerTests;
+			sourceTree = "<group>";
+		};
+		484D432E19B96B3D0042B26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				484D432F19B96B3D0042B26C /* ScrumPokerTests-Info.plist */,
+				484D433019B96B3D0042B26C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484D430119B96B3D0042B26C /* ScrumPoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484D433719B96B3D0042B26C /* Build configuration list for PBXNativeTarget "ScrumPoker" */;
+			buildPhases = (
+				484D42FE19B96B3D0042B26C /* Sources */,
+				484D42FF19B96B3D0042B26C /* Frameworks */,
+				484D430019B96B3D0042B26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrumPoker;
+			productName = ScrumPoker;
+			productReference = 484D430219B96B3D0042B26C /* ScrumPoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		484D432519B96B3D0042B26C /* ScrumPokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484D433A19B96B3D0042B26C /* Build configuration list for PBXNativeTarget "ScrumPokerTests" */;
+			buildPhases = (
+				484D432219B96B3D0042B26C /* Sources */,
+				484D432319B96B3D0042B26C /* Frameworks */,
+				484D432419B96B3D0042B26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				484D432C19B96B3D0042B26C /* PBXTargetDependency */,
+			);
+			name = ScrumPokerTests;
+			productName = ScrumPokerTests;
+			productReference = 484D432619B96B3D0042B26C /* ScrumPokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484D42FA19B96B3D0042B26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPKR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Leber";
+				TargetAttributes = {
+					484D432519B96B3D0042B26C = {
+						TestTargetID = 484D430119B96B3D0042B26C;
+					};
+				};
+			};
+			buildConfigurationList = 484D42FD19B96B3D0042B26C /* Build configuration list for PBXProject "ScrumPoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484D42F919B96B3D0042B26C;
+			productRefGroup = 484D430319B96B3D0042B26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484D430119B96B3D0042B26C /* ScrumPoker */,
+				484D432519B96B3D0042B26C /* ScrumPokerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484D430019B96B3D0042B26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D431C19B96B3D0042B26C /* Main_iPad.storyboard in Resources */,
+				484D432119B96B3D0042B26C /* Images.xcassets in Resources */,
+				484D431919B96B3D0042B26C /* Main_iPhone.storyboard in Resources */,
+				484D431019B96B3D0042B26C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484D432419B96B3D0042B26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D433219B96B3D0042B26C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484D42FE19B96B3D0042B26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D431F19B96B3D0042B26C /* SPKRViewController.m in Sources */,
+				484D431619B96B3D0042B26C /* SPKRAppDelegate.m in Sources */,
+				484D431219B96B3D0042B26C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484D432219B96B3D0042B26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D433419B96B3D0042B26C /* ScrumPokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		484D432C19B96B3D0042B26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484D430119B96B3D0042B26C /* ScrumPoker */;
+			targetProxy = 484D432B19B96B3D0042B26C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		484D430E19B96B3D0042B26C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484D430F19B96B3D0042B26C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		484D431719B96B3D0042B26C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484D431819B96B3D0042B26C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		484D431A19B96B3D0042B26C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484D431B19B96B3D0042B26C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		484D433019B96B3D0042B26C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484D433119B96B3D0042B26C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		484D433519B96B3D0042B26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484D433619B96B3D0042B26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484D433819B96B3D0042B26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrumPoker/ScrumPoker-Prefix.pch";
+				INFOPLIST_FILE = "ScrumPoker/ScrumPoker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		484D433919B96B3D0042B26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrumPoker/ScrumPoker-Prefix.pch";
+				INFOPLIST_FILE = "ScrumPoker/ScrumPoker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		484D433B19B96B3D0042B26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrumPoker.app/ScrumPoker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrumPoker/ScrumPoker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScrumPokerTests/ScrumPokerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		484D433C19B96B3D0042B26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrumPoker.app/ScrumPoker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrumPoker/ScrumPoker-Prefix.pch";
+				INFOPLIST_FILE = "ScrumPokerTests/ScrumPokerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484D42FD19B96B3D0042B26C /* Build configuration list for PBXProject "ScrumPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484D433519B96B3D0042B26C /* Debug */,
+				484D433619B96B3D0042B26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484D433719B96B3D0042B26C /* Build configuration list for PBXNativeTarget "ScrumPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484D433819B96B3D0042B26C /* Debug */,
+				484D433919B96B3D0042B26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		484D433A19B96B3D0042B26C /* Build configuration list for PBXNativeTarget "ScrumPokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484D433B19B96B3D0042B26C /* Debug */,
+				484D433C19B96B3D0042B26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484D42FA19B96B3D0042B26C /* Project object */;
+}
