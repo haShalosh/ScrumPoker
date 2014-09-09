@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SPKRViewController : UIViewController
+@interface SPKRViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UICollectionView *collectionView;
 
 @end

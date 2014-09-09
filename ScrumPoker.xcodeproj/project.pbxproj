@@ -22,6 +22,7 @@
 		484D432A19B96B3D0042B26C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D430919B96B3D0042B26C /* UIKit.framework */; };
 		484D433219B96B3D0042B26C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 484D433019B96B3D0042B26C /* InfoPlist.strings */; };
 		484D433419B96B3D0042B26C /* ScrumPokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484D433319B96B3D0042B26C /* ScrumPokerTests.m */; };
+		484D434219B96D880042B26C /* SPKRCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 484D434119B96D880042B26C /* SPKRCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		484D432F19B96B3D0042B26C /* ScrumPokerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrumPokerTests-Info.plist"; sourceTree = "<group>"; };
 		484D433119B96B3D0042B26C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		484D433319B96B3D0042B26C /* ScrumPokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrumPokerTests.m; sourceTree = "<group>"; };
+		484D434019B96D880042B26C /* SPKRCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPKRCollectionViewCell.h; sourceTree = "<group>"; };
+		484D434119B96D880042B26C /* SPKRCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPKRCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				484D431E19B96B3D0042B26C /* SPKRViewController.m */,
 				484D432019B96B3D0042B26C /* Images.xcassets */,
 				484D430C19B96B3D0042B26C /* Supporting Files */,
+				484D434019B96D880042B26C /* SPKRCollectionViewCell.h */,
+				484D434119B96D880042B26C /* SPKRCollectionViewCell.m */,
 			);
 			path = ScrumPoker;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			files = (
 				484D431F19B96B3D0042B26C /* SPKRViewController.m in Sources */,
 				484D431619B96B3D0042B26C /* SPKRAppDelegate.m in Sources */,
+				484D434219B96D880042B26C /* SPKRCollectionViewCell.m in Sources */,
 				484D431219B96B3D0042B26C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
