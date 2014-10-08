@@ -39,17 +39,15 @@ static CGFloat SPKRViewControllerAnimationDuration = 0.4f;
 {
     [super viewDidLoad];
 	
-	self.previousOutputVolume = [[AVAudioSession sharedInstance] outputVolume];
-	
 	MPVolumeView *volumeView = [[MPVolumeView alloc] initWithFrame:CGRectZero];
 	volumeView.layer.mask = [CALayer layer];
 	volumeView.userInteractionEnabled = NO;
 	[self.view addSubview:volumeView];
 	self.volumeView = volumeView;
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notification:) name:@"AVSystemController_SystemVolumeDidChangeNotification" object:nil];
-	[[AVAudioSession sharedInstance] setActive:YES error:nil];
 	
-	self.cellTitles = @[@"0", @"1", @"2", @"3", @"5", @"8", @"13", @"20", @"40", @"100", @"∞", @"☕️"];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(systemControllerSystemVolumeDidChangeNotification:) name:@"AVSystemController_SystemVolumeDidChangeNotification" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(startAudioSession) name:UIApplicationDidBecomeActiveNotification object:[UIApplication sharedApplication]];
+	self.cellTitles = @[@"1/2", @"1", @"2", @"3", @"5", @"8", @"13", @"20", @"40", @"100", @"∞", @"☕️"];
 	
 	self.view.backgroundColor = self.collectionView.backgroundColor;
 	
@@ -62,13 +60,24 @@ static CGFloat SPKRViewControllerAnimationDuration = 0.4f;
 	[behindGestureView addGestureRecognizer:tapGesture];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+	[super viewDidAppear:animated];
+	
+	[self startAudioSession];
+}
+
 #pragma mark - Private
 
-- (void)notification:(NSNotification *)note
+- (void)startAudioSession
 {
-	if (self.collectionView.alpha < __FLT_EPSILON__)
-		return;
-	else if (!self.selectedIndexPath)
+	self.previousOutputVolume = [[AVAudioSession sharedInstance] outputVolume];
+	[[AVAudioSession sharedInstance] setActive:YES error:nil];
+}
+
+- (void)systemControllerSystemVolumeDidChangeNotification:(NSNotification *)note
+{
+	if (!self.selectedIndexPath)
 		return;
 	
 	CGFloat oldVolume = self.previousOutputVolume;
